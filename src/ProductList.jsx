@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ProductList.css';
 import CartItem from './CartItem';
 import { useDispatch } from 'react-redux';
-import { addItem } from '../redux/CartSlice'; // Adjust this path to match your project structure
+import { addItem } from './CartSlice'; // Adjust this path to match your project structure
 
 function ProductList({ onHomeClick }) {
   const [showCart, setShowCart] = useState(false);
